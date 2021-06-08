@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 572738468}
   - component: {fileID: 572738467}
   m_Layer: 5
-  m_Name: Text
+  m_Name: GameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -713,7 +713,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userInput: {fileID: 1771978570}
-  randomNumber: 0
+  outputText: {fileID: 572738467}
+  guessButton: {fileID: 2117549063}
+  minNum: 0
+  maxNum: 10
 --- !u!4 &1712628562
 Transform:
   m_ObjectHideFlags: 0
@@ -989,7 +992,7 @@ GameObject:
   - component: {fileID: 2117549064}
   - component: {fileID: 2117549063}
   m_Layer: 5
-  m_Name: Button
+  m_Name: GuessButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
